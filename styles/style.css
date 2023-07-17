@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .body-section {
     max-width: 1440px;
     margin: auto;
@@ -43,4 +47,51 @@
 .mail,
 .phone {
     text-underline-offset: 0.23em;
+}
+
+.cover {
+    position: relative;
+    padding: 165px 50px;
+    background-image: url('../images/cover.jpg');
+    background-color: #c3c;
+    background-size: cover;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.cover__title {
+    position: relative;
+    font-size: 100px;
+    font-weight: bold;
+    z-index: 1;
+    letter-spacing: 30px;
+    line-height: 1;
+}
+
+.text_left {
+    line-height: 1.15;
+    text-align: left;
+}
+
+.text_center {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.text_right {
+    display: block;
+    text-align: right;
+    margin-right: -30px;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 60px;
 }
