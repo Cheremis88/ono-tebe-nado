@@ -51,7 +51,7 @@ html {
 
 .cover {
     position: relative;
-    padding: 165px 50px;
+    padding: 165px 50px 50px;
     background-image: url('../images/cover.jpg');
     background-color: #c3c;
     background-size: cover;
@@ -73,6 +73,7 @@ html {
     z-index: 1;
     letter-spacing: 30px;
     line-height: 1;
+    margin-bottom: 135px;
 }
 
 .text_left {
@@ -94,4 +95,24 @@ html {
 
 .letter-spacing-extended {
     letter-spacing: 60px;
+}
+
+.cover__description {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 22px;
+    z-index: 1;
+    gap: 78px;
+}
+
+.cover__description-text {
+    word-spacing: 18px;
+}
+
+.bet-button {
+    text-decoration: none;
+    padding: 12px 32px;
+    border: 1px solid #fff;
 }
