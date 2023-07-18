@@ -31,6 +31,11 @@ html {
     list-style: circle inside;
 }
 
+.header__link_active {
+    text-decoration: none;
+    cursor: default;
+}
+
 .header__link_non-active {
     text-underline-offset: 0.3em;
     margin-left: -5px;
@@ -141,13 +146,13 @@ html {
 .lots__card-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 450px;
     gap: 25px;
     margin-bottom: 30px;
 }
 
 .card-link {
     display: block;
+    min-height: 450px;
     height: 100%;
     text-decoration: none;
     color: #fff;
@@ -209,4 +214,36 @@ html {
     color: #000;
     text-transform: lowercase;
     text-underline-offset: 0.3em;
+}
+
+.about {
+    margin: 0 50px 180px;
+    display: flex;
+    gap: 25px;
+    align-items: start;
+}
+
+.about__column-logo {
+    width: 430px;
+    padding: 0 95px;
+}
+
+.about__logo {
+    width: 240px;
+    height: 240px;
+    padding: 63px 46px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.about__title {
+    margin: 100px 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about__text {
+    margin-top: 25px;
+    font-size: 20px;
 }
