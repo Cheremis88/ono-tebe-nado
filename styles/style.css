@@ -281,6 +281,11 @@ html {
 
 .footer__social-list-item {
     height: 48px;
+    border-radius: 50%;
+}
+
+.footer__social-list-item:hover {
+    opacity: 0.5;
 }
 
 .footer__social-icon {
